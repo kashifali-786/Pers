@@ -3,39 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Impressive Gallery</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Dynamic Photo Gallery</title>
 </head>
 <body>
     <header>
-        <h1 class="dynamic-text">Welcome to Her Gallery</h1>
+        <div class="scrolling-message">Welcome Shrutieee !! Select the Gallery from the dropdown and click on each pictures to view the message !!</div>
     </header>
-    <main>
-        <section class="gallery">
-            <h2>Her Beautiful Moments</h2>
-            <div class="gallery-grid">
-                <div class="gallery-item" data-message="You light up the room!">
-                    <img src="photo1.jpg" alt="Photo 1">
-                    <div class="message">You light up the room!</div>
-                </div>
-                <div class="gallery-item" data-message="Your smile is contagious!">
-                    <img src="photo2.jpg" alt="Photo 2">
-                    <div class="message">Your smile is contagious!</div>
-                </div>
-                <div class="gallery-item" data-message="Every moment with you is a treasure!">
-                    <img src="photo3.jpg" alt="Photo 3">
-                    <div class="message">Every moment with you is a treasure!</div>
-                </div>
-                <div class="gallery-item" data-message="You make the world a better place!">
-                    <img src="photo4.jpg" alt="Photo 4">
-                    <div class="message">You make the world a better place!</div>
-                </div>
-            </div>
-        </section>
-    </main>
+
+    <div class="dropdown-container">
+        <select id="pageSelector" onchange="changePage()">
+            <option value="">Select a Gallery</option>
+            <option value="gallery1">All time Favourite</option>
+            <option value="gallery2">Hotieee</option>
+            <option value="gallery3">Smokyyyy</option>
+        </select>
+    </div>
+
+    <div id="galleryContainer" class="gallery">
+        <!-- Gallery content will be injected here -->
+    </div>
+
     <footer>
-        <p>Created with ❤️ </p>
+        <p>Created with love</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
