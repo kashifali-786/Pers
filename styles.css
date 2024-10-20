@@ -10,7 +10,7 @@ body {
 
 @keyframes scroll {
     0% {
-        transform: translateX(5%);  /* Start from the right */
+        transform: translateX(10%);  /* Start from the right */
     }
     100% {
         transform: translateX(-100%);  /* End to the left */
@@ -21,7 +21,7 @@ header h1 {
     white-space: nowrap;  /* Prevents the text from wrapping */
     overflow: hidden;     /* Hide the overflow outside the container */
     display: inline-block;
-    animation: scroll 20s linear infinite;  /* Animation properties */
+    animation: scroll 13s linear infinite;  /* Animation properties */
 }
 
 button {
