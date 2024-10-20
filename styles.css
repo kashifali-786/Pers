@@ -10,7 +10,7 @@ body {
 
 @keyframes scroll {
     0% {
-        transform: translateX(20%);  /* Start from the right */
+        transform: translateX(30%);  /* Start from the right */
     }
     100% {
         transform: translateX(-100%);  /* End to the left */
