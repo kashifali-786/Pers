@@ -3,31 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruti's Gallery</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Dynamic Photo Gallery</title>
 </head>
 <body>
     <header>
-        <div class="scrolling-message">Welcome Shrutieee !! Select the Gallery from the dropdown and click on each pictures to view the message !!</div>
+        <h1>Welcome Shrutieee !! Select the Gallery and click on each picture to view the message !!</h1>
     </header>
 
-    <div class="dropdown-container">
-        <select id="pageSelector" onchange="changePage()">
-            <option value="">Select a Gallery</option>
-            <option value="gallery1">All time Favourite</option>
-            <option value="gallery2">Hotieee</option>
-            <option value="gallery3">Smokyyyy</option>
-        </select>
-    </div>
-
-    <div id="galleryContainer" class="gallery">
-        <!-- Gallery content will be injected here -->
-    </div>
+    <section class="gallery-selection">
+        <div class="gallery-card" onclick="window.location.href='gallery1.html'">
+            <h2>All Time Favourite</h2>
+            <p>Click to explore favouritesss</p>
+        </div>
+        <div class="gallery-card" onclick="window.location.href='gallery2.html'">
+            <h2>Hotieeeee</h2>
+            <p>Click to realize how hot you are</p>
+        </div>
+        <div class="gallery-card" onclick="window.location.href='gallery3.html'">
+            <h2>Smookyyyyy</h2>
+            <p>Click to cherish your smokinesss</p>
+        </div>
+    </section>
 
     <footer>
-        <p>Created with love</p>
+        <h3>Click on the buttons Shrutieee !!</h3>
+        <div class="surprise-buttons">
+            <button class="surprise-btn" onclick="showSurpriseMessage('Gotchaa Sunshinee!')">Message 1</button>
+            <button class="surprise-btn" onclick="showSurpriseMessage('Youuu are amazing!!')">Message 2</button>
+            <button class="surprise-btn" onclick="showSurpriseMessage('Just Loveeeeeeeeeeeeeeeeeee!')">Message 3</button>
+        </div>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
