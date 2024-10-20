@@ -6,7 +6,7 @@ const galleries = {
         // Add more images as needed
     ],
     gallery2: [
-        { src: 'image4.png', message: 'Although these kind of outfits suits on the slim body, jisko aesa lagta h they should see this picture of yours..I like the way you have broken this steriotype...' },
+        { src: 'image4.png', message: 'You look extremely classyyyy in this outfittt....Samajh nhi aarhaa outfit ki tareef krun ya tumhari... dono his best hai <3 !!' },
         { src: 'image5.png', message: 'This photo is for your chubby cheeeksss.... hehehehe' },
         { src: 'image6.png', message: 'It is not just a normal picture, your body posture, legs position and hands placement, the way your eyes are down.. everything makes it a masterpiece !!' },
         // Add more images as needed
